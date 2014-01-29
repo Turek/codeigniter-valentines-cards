@@ -5,10 +5,10 @@ Options FollowSymLinks
 ##########  Custom variables  ##################################################
 
 # Set it depending on your local environment, for example if you access it from
-# http://localhost/~yourusername/argos-face-reskin/www then set it to:
+# http://localhost/~yourusername/site/www then set it to:
 # /~yourusername/site/www/ - for dev, staging or live use / only
 
-RewriteBase /firestarter/
+RewriteBase /site/
 
 
 # Environment variable is used to load different config files for different
@@ -29,7 +29,7 @@ setenv SITE_NAME "Test project"
 # Create empty database, put it's name here.
 
 setenv DB_HOST "localhost"
-setenv DB_NAME "firestarter"
+setenv DB_NAME "site"
 setenv DB_USER "root"
 setenv DB_PASS ""
 
